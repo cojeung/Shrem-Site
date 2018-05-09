@@ -1,6 +1,4 @@
 function change_pic(_src) {
-      //based off of method from https://www.youtube.com/watch?v=SGKXZUGe2sw
-
       var clicked_image = _src; //store returned src as clicked image
       var clicked = 'f'; //if image has been "changed" yet
 
