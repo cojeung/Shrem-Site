@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wayne Theibaud Exhibit</title>
+  <link rel="stylesheet" type="text/css" href="../exhibitAssets/reset.css">
+  <link rel="stylesheet" type="text/css" href="exhibit_xc.css">
+  <!-- <link rel="stylesheet" type="text/css" href="exhibit_mobile.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="exhibit_large.css"> -->
+
+  <link href="https://fonts.googleapis.com/css?famil=Montserrat" rel="stylesheet">
+
+  <script src="exhibit.js"></script>
+</head>
+
+
+
+<body>
+
+<header>
+  <div class="column" id="headerLeft">
+    <h1 class="header">WAYNE THEIBAUD</h1>
+    <p class="header">Exhibition at Manetti Shrem Museum</p>
+  </div>
+
+  <div class="column" id="headerRight">
+  	  <ul class="list_nav">
+          <li class="button" id="home"><a href="#home">HOME</a></li>
+		  <li class="divlines" ><p style="display:inline"> | </p><li>
+          <li class="button" id="about"><a href="#about">ABOUT</a></li>
+		  <li class="divlines"><p style="display:inline"> | </p><li>
+          <li class="button" id="contact"><a href="#contact">CONTACT</a></li>
+      </ul>
+
+  </div>
+
+</header>
+
+
+<main>
+
+<div class="LARGE_VIEW">
+<div class="LARGE_word_chunk">
+      <ul class="intro">
+          <li class="word_chunk_list"><h1 class="intro">Open until May 13</h1></li>
+          <li class="divlines_intro"><p style="display:inline"> | </p><li>
+          <li class="word_chunk_list"><h2 class="intro">free to the public</h2></li>
+      </ul>
+    <!-- </div> -->
+
+  <p class="intro" id="LARGE_dash">
+      &mdash;
+  </p>
+
+  <p class="intro" id="LARGE_paragraph">
+    At an extraordinary historical moment, Wayne Theibaud proposed
+    a radical new take on painting, and he did so with a slice
+    of pie.  This exhibition invites viewers to trace Theibaud's
+    emergence as a mature artist with a singular style.  The first
+    exhibition to explore this formative period, Wayne Theibaud |
+    1958-1968 brings together more than 60 early paintings
+    gathered from private collections and museums throughout
+    the United States
+  </p>
+</div>
+
+  <div class="LARGE_image" id="LARGE_wind">
+    <img src="../exhibitAssets/Wind Toys, 1962. oil on canvas.jpg" alt="Wind Toys, 1962. oil on canvas." id="LARGE_wind_pic" onclick="change_pic(this.src);"> <!-- ADDED "alt" AND "class" HERE-->
+    <div class="LARGE_image_caption" id="wind_caption">
+      <p class="picTitle_h1" id="wind_title">Wind Toys</p>
+      <p class="picTitle_h2" id="wind_paren"><i>(1962. oil on canvas)</i></p>
+    </div>
+  </div>
+
+  <div class="LARGE_image" id="LARGE_wind2" onclick="return_caption('wind_title','wind_paren','wind_title2','wind_paren2')">
+    <img src="../exhibitAssets/Wind Toys, 1962. oil on canvas.jpg" alt="Wind Toys, 1962. oil on canvas." id="LARGE_wind_pic2" onclick="change_pic(this.src);"> <!-- ADDED "alt" AND "class" HERE-->
+    <div class="LARGE_image_caption" id="wind_caption2">
+      <p class="picTitle_h1" id="wind_title2">Wind Toys</p>
+      <p class="picTitle_h2" id="wind_paren2"><i>(1962. oil on canvas)</i></p>
+    </div>
+  </div>
+
+  <div class="LARGE_image" id="LARGE_cake" onclick="return_caption('wind_title','wind_paren','cake_title','cake_paren')">
+    <a href="#cake">
+      <img src="../exhibitAssets/Around the Cake, 1962, oil on canvas.jpg" alt="Around the Cake, 1962, oil on canvas." id="LARGE_cake_pic" onclick="change_pic(this.src);">
+    </a>
+    <div class="LARGE_image_caption" id="cake_caption">
+      <p class="picTitle_h1" id="cake_title">Around the Cake</p>
+      <p class="picTitle_h2" id="cake_paren"><i>(1962. oil on canvas)</i></p>
+    </div>
+  </div>
+
+  <div class="LARGE_image" id="LARGE_boston" onclick="return_caption('wind_title','wind_paren','boston_title','boston_paren')">
+    <a href="#boston">
+      <img src="../exhibitAssets/Boston Creems, 1962. oil on canvas.jpg" alt="Boston Creems, 1962. oil on canvas." id="LARGE_boston_pic" onclick="change_pic(this.src);">
+    </a>
+    <div class="LARGE_image_caption" id="boston_caption">
+      <p class="picTitle_h1" id="boston_title">Boston Cremes</p>
+      <p class="picTitle_h2" id="boston_paren"><i>(1962. oil on canvas)</i></p>
+    </div>
+  </div>
+
+  <div class="LARGE_image" id="LARGE_pancake" onclick="return_caption('wind_title','wind_paren','pancake_title','pancake_paren')">
+    <a href="#pancake">
+      <img src="../exhibitAssets/Pancake Breakfast, 2008. oil on canvas.jpg" alt="Pancake Breakfast, 2008. oil on canvas." id="LARGE_pancake_pic" onclick="change_pic(this.src);">
+    </a>
+    <div class="LARGE_image_caption" id="pancake_caption">
+      <p class="picTitle_h1" id="pancake_title">Pancake Breakfast</p>
+      <p class="picTitle_h2" id="pancake_paren"><i>(2008. oil on canvas)</i></p>
+    </div>
+  </div>
+
+  <div class="LARGE_image" id="LARGE_three" onclick="return_caption('wind_title','wind_paren','three_title','three_paren')">
+    <a href="#three">
+      <img src="../exhibitAssets/Three Machines, 1963. oil on canvas.jpg" alt="Three Machines, 1963. oil on canvas." id="LARGE_three_pic" onclick="change_pic(this.src);">
+    </a>
+    <div class="LARGE_image_caption" id="three_caption">
+      <p class="picTitle_h1" id="three_title">Three Machines</p>
+      <p class="picTitle_h2" id="three_paren"><i>(1963. oil on canvas)</i></p>
+    </div>
+  </div>
+
+  <div class="LARGE_image" id="LARGE_bananas" onclick="return_caption('wind_title','wind_paren','banana_title','banana_paren')">
+    <a href="#bananas">
+      <img src="../exhibitAssets/Bananas, 1963. Oil on canvas.jpg" alt="Bananas, 1963. Oil on canvas." id="LARGE_bananas_pic" onclick="change_pic(this.src);">
+    </a>
+    <div class="LARGE_image_caption" id="banana_caption">
+      <p class="picTitle_h1" id="banana_title">Bananas</p>
+      <p class="picTitle_h2" id="banana_paren"><i>(1963. oil on canvas)</i></p>
+    </div>
+  </div>
+
+
+</div> <!--end TOP PICTURES-->
+
+<div class="word_chunk">
+      <ul class="intro">
+          <li class="word_chunk_list"><h1 class="intro">Open until May 13</h1></li>
+          <li class="divlines_intro"><p style="display:inline"> | </p><li>
+          <li class="word_chunk_list"><h2 class="intro">free to the public</h2></li>
+      </ul>
+    <!-- </div> -->
+
+  <p class="intro" id="dash">
+      &mdash;
+  </p>
+
+  <p class="intro" id="paragraph">
+    At an extraordinary historical moment, Wayne Theibaud proposed
+    a radical new take on painting, and he did so with a slice
+    of pie.  This exhibition invites viewers to trace Theibaud's
+    emergence as a mature artist with a singular style.  The first
+    exhibition to explore this formative period, Wayne Theibaud |
+    1958-1968 brings together more than 60 early paintings
+    gathered from private collections and museums throughout
+    the United States
+  </p>
+</div>
+
+  <div class="pictures" id="left">
+    <div class="image" id="wind" onclick=change_pic(this)>
+      <img src="../exhibitAssets/Wind Toys, 1962. oil on canvas.jpg" alt="Wind Toys, 1962. oil on canvas."> <!-- ADDED "alt" AND "class" HERE-->
+      <div class="image_caption">
+        <p class="picTitle_h1">Wind Toys</p>
+        <p class="picTitle_h2"><i>(1962. oil on canvas)</i></p>
+      </div>
+    </div>
+
+    <div class="image" id="cake">
+      <img src="../exhibitAssets/Around the Cake, 1962, oil on canvas.jpg" alt="Around the Cake, 1962, oil on canvas.">
+      <div class="image_caption">
+        <p class="picTitle_h1">Around the Cake</p>
+        <p class="picTitle_h2"><i>(1962. oil on canvas)</i></p>
+      </div>
+    </div>
+
+    <div class="image" id="boston">
+      <img src="../exhibitAssets/Boston Creems, 1962. oil on canvas.jpg" alt="Boston Creems, 1962. oil on canvas.">
+      <div class="image_caption">
+        <p class="picTitle_h1">Boston Cremes</p>
+        <p class="picTitle_h2"><i>(1962. oil on canvas)</i></p>
+      </div>
+    </div>
+  </div> <!--end LEFT PICTURE-->
+
+
+
+
+<div class="pictures" id="right">
+  <div class="image" id="pancake">
+    <img src="../exhibitAssets/Pancake Breakfast, 2008. oil on canvas.jpg" alt="Pancake Breakfast, 2008. oil on canvas.">
+    <div class="image_caption">
+      <p class="picTitle_h1">Pancake Breakfast</p>
+      <p class="picTitle_h2"><i>(2008. oil on canvas)</i></p>
+    </div>
+  </div>
+
+  <div class="image" id="three">
+    <img src="../exhibitAssets/Three Machines, 1963. oil on canvas.jpg" alt="Three Machines, 1963. oil on canvas.">
+    <div class="image_caption">
+      <p class="picTitle_h1">Three Machines</p>
+      <p class="picTitle_h2"><i>(1963. oil on canvas)</i></p>
+    </div>
+  </div>
+
+  <div class="image" id="bananas">
+    <img src="../exhibitAssets/Bananas, 1963. Oil on canvas.jpg" alt="Bananas, 1963. Oil on canvas.">
+    <div class="image_caption">
+      <p class="picTitle_h1">Bananas</p>
+      <p class="picTitle_h2"><i>(1963. oil on canvas)</i></p>
+    </div>
+  </div>
+</div>
+<!-- </div> -->
+
+
+</main>
+
+
+
+<footer>
+  <div class="footer" id="leftF">
+    Manetti Shrem Museum
+    <br/><br />254 Old Davis Rd
+    <br/>Davis, CA 95616
+    <br/>(530) 752-8500
+  </div>
+
+  <div class="footer" id="rightF">
+    Hours
+    <br/><br/>Closed Monday
+    <br/>Open Tuesday-Friday 12 am - 6 pm
+    <br/>Open Saturday-Sunday 11 am - 5 pm
+  </div>
+</footer>
+
+
+</body>
+
+</html>
